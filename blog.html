@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steins Clothing Official Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo 4.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick=hideMenu()></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">PRODUCTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick=showMenu()></i>
+        </nav>
+        <h1>BLOG</h1>
+    </section>
+
+    <!------blog page content---->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/shirt.jpg" >
+                <h2>Steins Clothing Wardrobe</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui hic quod ea distinctio nulla voluptate commodi necessitatibus quas nisi velit accusamus, ratione magnam tenetur eveniet veritatis optio, quos aliquid enim!</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda magni nostrum fuga quo, officia nobis minima beatae provident nulla adipisci quidem, quod vel dolorum pariatur. Ut cumque ipsum rem officiis.</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo in consectetur eius aperiam temporibus cupiditate voluptates deleniti natus. Eveniet, in. Aliquid tenetur cupiditate, inventore sed pariatur nemo nulla corporis doloribus.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eveniet neque, qui nisi ipsa excepturi est accusamus quaerat exercitationem, omnis adipisci sed eum reiciendis sit ex pariatur porro? Aliquid, provident.</p>
+            
+            
+                <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea row="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+
+                </div>
+            
+            
+            
+            </div>
+            <div class="blog-right">
+                <h3>Clothes Categories</h3>
+                <div>
+                    <span>Shirts</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Hoodies</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Sweaters</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Pants</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Caps</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Masks</span>
+                    <span>43</span>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!----Footer----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i> 
+            <i class="fa fa-twitter" ></i> 
+            <i class="fa fa-instagram" ></i> 
+            <i class="fa fa-linkedin" ></i> 
+        </div>
+
+        <p>Made with <i class="fa fa-heart-o"></i> by Arif 118 </p>
+    </section>
+
+
+
+    <!----JavaScript for Toggle ----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>

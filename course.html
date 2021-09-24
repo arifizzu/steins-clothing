@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steins Clothing Official Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo 4.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick=hideMenu()></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">PRODUCTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick=showMenu()></i>
+        </nav>
+        <h1>Our Products</h1>
+    </section>
+
+    <!------ Course---->
+    <section class="course">
+        <h1>Services</h1>
+        <p>Steins Clothing products has been sold worldwide since 2001</p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3>World Class Product</h3>
+                <p>Our products has been recognised worldwide</p>
+            </div>
+            <div class="course-col">
+                <h3>High Quality Materials</h3>
+                <p>We only use high quality silk for our products</p>
+            </div>
+            <div class="course-col">
+                <h3>Worldwide Products</h3>
+                <p>Our products has been sold wordwide</p>
+            </div>
+        </div>
+    </section>
+
+    <!---------facilities--------->
+
+    <section class="facilities">
+        <h1>Products We Offer</h1>
+        <p>Better grab now while in stocked</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/shirt 2.jpg">
+                <h3>Shirts</h3>
+                <p>Stylish designed shirts</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/hoodies.jfif">
+                <h3>Hoodies</h3>
+                <p>Limited edition hoodies</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/headwear.jpg">
+                <h3>Headwear</h3>
+                <p>Premium quality headband, caps, hats and more</p>
+            </div>
+        </div>
+    </section>
+
+    <!----Footer----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i> 
+            <i class="fa fa-twitter" ></i> 
+            <i class="fa fa-instagram" ></i> 
+            <i class="fa fa-linkedin" ></i> 
+        </div>
+
+        <p>Made with <i class="fa fa-heart-o"></i> by Arif 118 </p>
+    </section>
+
+
+
+    <!----JavaScript for Toggle ----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
