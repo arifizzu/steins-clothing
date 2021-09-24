@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'info.github.io';
+$email_from = '/steins-clothing/contact.html';
 
 $email_subject = 'New Form Submission';
 
